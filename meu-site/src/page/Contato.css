@@ -1,0 +1,41 @@
+.contato-section {
+  max-width: 800px;
+  margin: 40px auto 20px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.contato-section h2 {
+  color: #3E4192;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.contato-list {
+  list-style: none;
+  padding: 0;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.contato-list li {
+  margin-bottom: 8px;
+}
+
+.contato-list a {
+  color: #49B900;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.contato-list a:hover {
+  color: #3E4192;
+  text-decoration: underline;
+}
+.icon {
+  color: #49B900;
+  margin-right: 8px;
+  vertical-align: middle;
+  font-size: 1.2rem;
+}

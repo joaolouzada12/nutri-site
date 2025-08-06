@@ -1,0 +1,65 @@
+
+.artigos-section {
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.artigos-section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #3E4192;
+  font-weight: 700;
+}
+
+.artigos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.artigo-card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.artigo-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.artigo-card h3 {
+  margin-bottom: 10px;
+  color: #49B900;
+}
+
+.artigo-card p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.artigo-card time {
+  font-size: 0.875rem;
+  color: #999;
+}
+
+.download-link {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 16px;
+  background-color: #49B900;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  margin-left: 3px;
+}
+
+.download-link:hover {
+  background-color: #3e8e00;
+}

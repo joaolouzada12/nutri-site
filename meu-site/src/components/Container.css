@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  margin: 20 auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.container h1,
+.container h2,
+.container h3,
+.container p {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.15); 
+}
+
+
+@media (max-width: 600px) {
+  .container {
+    padding: 20px 15px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1300px; 
+  }
+}
+
