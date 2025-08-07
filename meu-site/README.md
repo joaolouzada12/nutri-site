@@ -1,12 +1,50 @@
-# React + Vite
+# Nutritionist Website - Flávia Dhullyane
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive React single-page application showcasing the services and content of nutritionist Flávia Dhullyane. The site features sections for introduction, downloadable articles, and contact information.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Single-page layout with smooth scrolling navigation  
+- Responsive design optimized for desktop and mobile  
+- Home section with welcoming image and introductory text  
+- Articles section with cards displaying summaries and PDF download links  
+- Contact section with phone, email, Instagram, and LinkedIn links accompanied by icons  
+- Fixed navbar with blur effect and link hover styles  
+- Use of React Icons for better visual experience  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Technologies Used
+
+- React  
+- Modular CSS  
+- React Icons for social and contact icons  
+- React Router (initially used for multi-page navigation, removed for single-page layout)  
+
+---
+
+## Project Structure
+
+- `/src/components` — reusable components (Navbar, Footer, Container)  
+- `/src/page` — pages and sections (Home, Articles, Contact)  
+- `/public/pdfs` — PDF files for download in the Articles section  
+
+---
+
+## Contributing
+
+Contributions are welcome! To contribute:
+
+- Fork the repository  
+- Create a branch for your feature or fix (`git checkout -b feature-name`)  
+- Commit your changes (`git commit -m 'feat: add new feature'`)  
+- Push to your branch (`git push origin feature-name`)  
+- Open a pull request  
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
